@@ -1,0 +1,56 @@
+<!-- 
+	|		|		/\      
+	|		|	   /  \	   |
+	|-------|	  /____\   |
+	|		|	 /		\  |
+	|		|	/		 \ |____
+Author : Jean Lionel Nininahazwe 
+
+2019
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Making a pdf </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container mt-5">
+		<form method="post" action="makePdf.php" class="offset-md-3 col-md-6">
+			<h1>Create yaur own pdf file</h1>
+			<p>Fill this fields to create a simple pdf</p>
+
+			<div class="row mb-2">
+				<div class="col-md-6">
+					<input type="text" name="fname" placeholder="First Name" class="form-control" required="">
+				</div>
+				<div class="col-md-6">
+					<input type="text" name="lName" placeholder="Last Name" class="form-control" required="">					
+				</div>
+			</div>
+			<div class="mb-2">
+				<input type="text" name="fone" placeholder="Fone" class="form-control" required="">
+				
+			</div>
+
+			<div class="mb-2">
+				<input type="text" name="email" placeholder="Email" class="form-control" required="">
+			
+			</div>
+
+			<div class="mb-2">
+				<textarea name="message" placeholder="yaur Message" class="form-control"></textarea>
+			</div>
+
+			<input type="submit" class="btn btn-success btn-block">
+
+			
+		</form>
+	</div>
+	
+</body>
+</html>
